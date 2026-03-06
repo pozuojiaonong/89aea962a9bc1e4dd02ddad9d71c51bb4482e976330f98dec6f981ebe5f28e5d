@@ -1,9 +1,8 @@
 name: pozuojiaonong
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
+    - cron: '32 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +10,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: pozuojiaonong
         env:
-          rasr24035: ${{ secrets.rasr24035 }}
+          l8991: ${{ secrets.l8991 }}
         run: |
-          echo $rasr24035 | jq -r .pv01530 | /bin/bash
-          echo $acin52951 | jq -r .qafc32 | /bin/bash
-          echo $ssiy860 | jq -r .q0248 | /bin/bash
-          echo $x6056 | jq -r .fxsy42479 | /bin/bash
-          echo $lfl14 | jq -r .qrim289 | /bin/bash
-          echo $iu73 | jq -r .y599 | /bin/bash
-          echo $kec96 | jq -r .px5411 | /bin/bash
+          echo $l8991 | jq -r .gp3 | /bin/bash
+          echo $yjl15 | jq -r .e494 | /bin/bash
+          echo $zjn66 | jq -r .zlqia824 | /bin/bash
+          echo $ku5744 | jq -r .jw900 | /bin/bash
+          echo $j46 | jq -r .ciwvh93212 | /bin/bash
+          echo $ekh4792 | jq -r .y471 | /bin/bash
 
